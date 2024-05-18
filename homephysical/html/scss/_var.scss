@@ -1,0 +1,9 @@
+$mainColor : #ff6D35;
+// #FF6D35  메인칼라
+// #EAE3D8  서브칼라
+@mixin mainFont{
+    font-family: 'notosanskr';
+    font-size: 2em;
+    font-weight: bold;
+    color: blue;
+}

@@ -1,0 +1,107 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+body {
+	line-height: 1;
+	font-family: "Roboto", "Noto Sans KR", sans-serif;
+	font-size: 1em;
+}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrap {
+
+}
+
+.group {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.group h1 {
+    font-family: 'SBAggroB';
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.750em;
+    padding: 80px 0;
+}
+
+.group ul {
+    font-size: 1.375em;
+    font-weight: 800;
+}
+
+.group ul li:nth-child(1),
+.group ul li:nth-child(3) {
+    font-family: 'TheJamsil5Bold';
+    padding-bottom: 30px;
+}
+
+.group ul li:nth-child(2),
+.group ul li:nth-child(4) {
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 0.875em;
+    font-weight: 200;
+    line-height: 160%;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.group ul li {
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width:560px) {
+    .group ul li {
+        padding-bottom: 50px;
+    }
+    .group h1 {
+        padding: 50px 0;
+        font-size: 1.125em;
+    }
+    .group ul li:nth-child(1),
+    .group ul li:nth-child(3) {
+        font-size: 0.750em;
+    }
+    .group ul li:nth-child(2),
+    .group ul li:nth-child(4) {
+        font-size: 0.625em;
+        font-weight: 500;
+    }
+}
