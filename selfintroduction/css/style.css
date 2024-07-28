@@ -88,6 +88,14 @@ body {
     line-height: 160%;
 }
 
+.group ul li strong{
+    display: block;
+    padding-bottom: 30px;
+}
+.group ul li p{
+    margin-bottom: 30px;
+}
+
 @media only screen and (max-width:560px) {
     .group ul li {
         padding-bottom: 50px;
